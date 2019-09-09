@@ -66,5 +66,98 @@ for i in mouth:
 # print('各位数字之和为：'+sum)
 
 
+# num1=float(input('请输入：'))
+# num2=float(input('请输入另一个：'))
+# print(num1+num2)
 
+
+
+
+# a=100
+# b=str(a)
+# print(b,type(b))
+
+
+
+# a='a'
+# print(ord (a))
+
+
+# a=97
+# print(chr(a))
+
+
+# email='666@qq.com'
+# for e in email:
+#     o=ord(e)
+#     print(o)
+
+
+
+
+
+# email='666@qq.com'
+# for e in email:
+#     o=ord(e)-10
+#     print(chr(o),end='')
+
+
+
+
+
+# #MD5加密
+# import hashlib
+# m=hashlib.md5()
+# a=input('请输入字符串：')
+# m.update(bytes(a,encoding = 'utf8'))
+# print(m.hexdigest())
+
+
+
+# a='abc'
+# print(a[0])
+
+
+# a='Joker is good man'
+# #print(a[-1])
+# #print(a[-8])
+# #print(a[0:4])
+# #print(a[-8:-4])
+# #print(a[::-1])
+
+
+# #输入一个年份，判断是否是闰年
+# year=int(input('请输入一个年份：'))
+# if year%4==0:
+#     print('%d是闰年'%year)
+# else:
+#     print('%d不是闰年'%year)
+
+
+
+
+# #输入一个月份，判断有多少天
+# m=float(input('请输入一个月份：'))
+# a=['1','3','5','7','8','10','12']
+# b=['4','6','9','11']
+# c=['2']
+# if m in a:
+#     print('此月有31天')
+# elif m in b:
+#     print('此月有30天')
+# else:
+#     print('此月有28天')
+
+
+
+
+# #水仙花
+# Number = input('请输入一个数字：')
+# bai = int(Number[0])
+# shi = int(Number[1])
+# ge = int(Number[2])
+# if bai**3+shi**3+ge**3==int(Number):
+#     print('是水仙花')
+# else:
+#     print('不是水仙花')
 
